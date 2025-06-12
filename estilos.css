@@ -8,10 +8,38 @@
 }
 
 .title{
+    border: 2px solid black;
+    width: fit-content;
     font-size: 40px;
     background-color: rgba(49, 132, 67, 0.716);
+    padding: 0em 1em 0em 1em;
+
 }
 
 #principal{
     font-size: 50px;
+    
+}
+
+.noticias{
+    width: 500px;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 40vw; /*viewport width*/
+    margin: auto;
+    padding: 1em;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+.cards:hover{
+    background-color: azure;
 }
