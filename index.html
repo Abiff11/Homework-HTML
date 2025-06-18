@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset= "UTF-8">
     <meta name= "viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi página web</title>
-    <link rel="stylesheet" type="text/css" href="./estilos.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./reset.css">
 </head>
+
 <body class="fondo">
+    
     <header>
         <div id="titulos">
             <h1 class="title" id="principal">Mi página web</h1>
-
-            <span>HOME</span>
-            <span>NOTICIAS</span>
-            <span>EL CLIMA</span>
+            <h2>Hiram Carreño Armenta</h2>
         </div>
+
     </header>
 
     <main>
-        
-        <img src="/noticias.jpeg" class="noticias">
+    
 
         <section>
                 
-            <h2>Este es el titulo de una sección de noticias</h2>
+            <h2>Full Stack Developer</h2>
 
-            <article>
+            <article class="texto">
                 <h3 class="title">Esta es la noticia 1</h3>
 
                 <div>
-                    <p class="miTexto">Este será el primer parrafo de mi noticia y que yo escribí<p>
+                    <p>Este será el primer parrafo de mi noticia y que yo escribí<p>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem quia fuga asperiores illum, repudiandae ut ducimus exercitationem distinctio. Sequi, possimus fugit. Sint nemo sunt laudantium. Similique laborum exercitationem obcaecati.</p>
 
@@ -40,59 +41,63 @@
 
             <hr>
 
-            <article>
+            <article class="texto">
 
                 <h3 class="title">Esta es la noticia 2</h3>
+            
+                <div>
+                        <p>Este es un listado de cosas importantes</p>
+                        <ol>
+                            <li>Este es el item 1</li>
+                         <li>Este es el item 2</li>
+                         <li>Este es el item 3</li>
+                         <li>Este es el item 4</li>
+                        </ol>
+                </div>
 
-                <p>Este es un listado de cosas importantes</p>
-                <ol>
-                    <li>Este es el item 1</li>
-                    <li>Este es el item 2</li>
-                    <li>Este es el item 3</li>
-                    <li>Este es el item 4</li>
-                </ol>
             </article>
 
             <hr>
 
-            <article>
+            <article class="texto">
                 <h3 class="title">Esta es la noticia 3</h3>
-                <p>Este listado de cosas importantes no esta ordenado</p>
 
-                <ul>
-                    <li>Este es un elemento</li>
-                    <li>Este es un elemento adicional</li>
-                    <li>Este es un elemento adicional 1</li>
-                </ul>
+                <div>
+                    <p>Este listado de cosas importantes no esta ordenado</p>
+
+                    <ul>
+                        <li>Este es un elemento</li>
+                        <li>Este es un elemento adicional</li>
+                        <li>Este es un elemento adicional 1</li>
+                    </ul>
+                </div>
+
             </article>
+
             <hr>
 
         </section>
 
-       
-        <div class="cards">
-            <h3 class="html">
-                <img src="./html.png">
-            
-        </div>
+        <article>
+            <div id="cards-container">
 
-        <div class="cards">
-            <h3 class="css">CSS</h3>
-                <img src="./css.png">
-            
-        </div>
+                <div class="cards">
+                    <h3 class="html">HTML</h3>
+                    <img src="./img/html.png">
+                </div>
 
-        <div class="cards">
-            <h3 class="js">JS</h3>
-                <img src="./js.png">
-            
-        </div>
+                <div class="cards">
+                    <h3 class="css">CSS</h3>
+                    <img src="img/css.png">
+                </div>
 
-            
-            
-           
-        
+                 <div class="cards">
+                    <h3 class="js">JS</h3>
+                    <img src="/img/js.png">
+                 </div>
 
+            </div>
+        </article>
 
 
 

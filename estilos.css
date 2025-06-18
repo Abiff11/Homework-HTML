@@ -1,14 +1,20 @@
-.fondo {
-    background-color: rgb(13, 66, 150);
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #8ce2e7;
+    margin: 20px;
 }
 
-.miTexto {
+
+article{
+    margin: 50px;
+    border: 2px solid rgb(170, 115, 115);
     
-    color: rgb(255, 255, 255);
 }
+
 
 .title{
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     width: fit-content;
     font-size: 40px;
     background-color: rgba(49, 132, 67, 0.716);
@@ -30,16 +36,50 @@
     width: 40vw; /*viewport width*/
     margin: auto;
     padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cards{
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 1em 0px 1em;
+    padding: 1em 1em 1em 1em;
     border-radius: 10%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
 }
 
 .cards:hover{
     background-color: azure;
+}
+
+#cards-container{
+    background-color: beige;
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(127, 108, 108);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2px 20em 2px 20em;
+    background-color: rgb(23, 59, 90);
+
 }
